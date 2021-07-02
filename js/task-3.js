@@ -12,8 +12,9 @@ const images = [
       alt: 'Group of Horses Running',
     },
   ];
-  
-  const listContainer = document.querySelector('#gallery');
+
+
+ const listContainer = document.querySelector('#gallery');
   
   const colectionEl = array => {
     return array.map(arr => {
