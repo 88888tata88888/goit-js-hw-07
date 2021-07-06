@@ -1,13 +1,7 @@
-const inputDrager = document.querySelector('input');
-const spanFontSize = document.querySelector('#text');
-let fontSizeValue = inputDrager.value;
-spanFontSize.style.fontSize = `${fontSizeValue}px`;
-
-inputDrager.addEventListener('input', onInputChange);
-
-function onInputChange(event) {
-  console.dir(event);
-  let fontSizeValue = event.currentTarget.value;
-  spanFontSize.style.fontSize = `${fontSizeValue}px`;
-  console.log(spanFontSize.style.fontSize);
-} 
+const refs = {
+  input: document.querySelector('#font-size-control'),
+  span: document.querySelector('#text')
+};
+refs.input.addEventListener('input', (event) => {
+  refs.span.style.fontSize = `${event.currentTarget.value}px`;
+});
