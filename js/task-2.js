@@ -16,4 +16,4 @@ const insertListItems = items => {
   });
 };
 const allUnits = insertListItems(ingredients);
-listContainer.append(...allUnits); 
+listContainer.append(...allUnits);
