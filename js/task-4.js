@@ -8,4 +8,5 @@ const incrementFunction = () =>
 const decrementFunction = () =>
   (counterValueEl.textContent = Number(counterValueEl.textContent) - 1);
 decrementBtn.addEventListener('click', decrementFunction);
-incrementBtn.addEventListener('click', incrementFunction); 
+incrementBtn.addEventListener('click', incrementFunction);
+

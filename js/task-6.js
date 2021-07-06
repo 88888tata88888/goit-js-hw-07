@@ -12,4 +12,4 @@ function validationHandler(event) {
     inputFieldEl.classList.remove('valid');
     inputFieldEl.classList.add('invalid');
   }
-}
+} 

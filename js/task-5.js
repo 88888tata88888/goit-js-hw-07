@@ -11,4 +11,4 @@ function onInputChange(event) {
   } else {
     stringNameEl.textContent = 'незнакомец';
   }
-}
+}  

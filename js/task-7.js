@@ -10,4 +10,4 @@ function onInputChange(event) {
   let fontSizeValue = event.currentTarget.value;
   spanFontSize.style.fontSize = `${fontSizeValue}px`;
   console.log(spanFontSize.style.fontSize);
-}
+} 
